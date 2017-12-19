@@ -230,8 +230,14 @@ body footer .content .social {
   body section .content .social,
   body footer .content .social {
     display: block;
+    text-align: center;
   }
 }
+.social a{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
 body section .content .first-h1,
 body footer .content .first-h1 {
   width: 29rem;
