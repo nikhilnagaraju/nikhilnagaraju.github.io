@@ -213,7 +213,7 @@ body footer {
 body section .content,
 body footer .content {
   margin: 100px auto;
-  min-height: 80vh;
+  min-height: 75vh;
   width: 768px;
 }
 @media screen and (max-width: 900px) {
@@ -222,6 +222,15 @@ body footer .content {
     width: 100%;
   }
 }
+
+@media screen and (max-width: 520px) {
+  body section .content,
+  body footer .content {
+    margin: 100px auto;
+    min-height: 65vh;
+  }
+}
+
 body section .content .social,
 body footer .content .social {
   display: none;
