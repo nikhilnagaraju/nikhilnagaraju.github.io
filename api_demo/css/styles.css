@@ -2,7 +2,7 @@ h1{
   text-align: center;
 }
 hr{
-  border-top: 3px solid #eee;
+  border-top: 3px solid #9bad9e;
 }
 .row{
   margin-top: 10%;
@@ -12,6 +12,7 @@ hr{
 }
 .jumbotron{
   text-align: center;
+  background-color: #D0E0D3;
 }
 .jumbotron p{
   text-align: left;
@@ -29,9 +30,8 @@ button{
 .demo{
   margin-top: 40px;
 }
-.footer {
+.footer1 {
     position: fixed;
-    left: 0;
     bottom: 0;
     display: block;
     width: 100%;
@@ -42,4 +42,11 @@ p.boldfont{
 }
 p.large{
   font-size: 130%;
+  text-align: center;
+}
+body{
+  background-color: #ECF0F1;
+}
+br{
+  margin-bottom: 30px;
 }
