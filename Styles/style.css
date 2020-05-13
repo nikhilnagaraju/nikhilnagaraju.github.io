@@ -67,13 +67,13 @@ body span {
   line-height: 1;
   text-align: center;
 }
-body a {
+a {
   color: #2f353a;
-  text-decoration: underline;
-}
-body a:hover {
-  color: #383838;
+  text-decoration: none;
   font-weight: 700;
+}
+a:hover {
+  color: #383838;
 }
 body nav {
   background-color: #f5ca7f;
@@ -253,7 +253,7 @@ body footer .content .first-h1 {
 }
 body section .content .second-h1,
 body footer .content .second-h1 {
-  width: 19rem;
+  width: 29rem;
 }
 body section .content .third-h1,
 body footer .content .third-h1 {
@@ -266,11 +266,11 @@ body footer .content .third-h1 {
   }
   body section .content .second-h1,
   body footer .content .second-h1 {
-    width: 15.5rem;
+    width: 23rem;
   }
   body section .content .third-h1,
   body footer .content .third-h1 {
-    width: 16.5rem;
+    width: 18.5rem;
   }
 }
 @media screen and (max-width: 520px) {
@@ -280,7 +280,7 @@ body footer .content .third-h1 {
   }
   body section .content .second-h1,
   body footer .content .second-h1 {
-    width: 12rem;
+    width: 19rem;
   }
   body section .content .third-h1,
   body footer .content .third-h1 {
